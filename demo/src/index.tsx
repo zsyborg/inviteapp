@@ -47,7 +47,7 @@ const DemoApp: FC<{
         <header className="App-header">
           <img
             onClick={handleRequestBeta}
-            src={'./logo.svg'}
+            src={'./logo.png'}
             className="App-logo"
             alt="logo"
           />
@@ -62,8 +62,8 @@ const DemoApp: FC<{
               <button onClick={onChangeTransition}>change </button>
             </div>
           )}
-          <ExpandDemo />
-          {!activeBtn ? (
+          {/* <ExpandDemo /> */}
+          {/* {!activeBtn ? (
             <MainButtonDemo
               initialValues={{
                 show: isBetaVersion,
@@ -79,7 +79,7 @@ const DemoApp: FC<{
                 show: isBetaVersion,
               }}
             />
-          )}
+          )} */}
           <BackButtonDemo />
           <ShowPopupDemo />
           <HapticFeedbackDemo />
